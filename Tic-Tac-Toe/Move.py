@@ -37,10 +37,3 @@ class Move:
 # row 1: | 4 | 5 | 6 |
 # row 2: | 7 | 8 | 9 |
         
-
-###### Testing Methods ######
-move = Move(8)
-# test is valid
-print(move.is_valid())
-# test get row
-print(move.get_row())

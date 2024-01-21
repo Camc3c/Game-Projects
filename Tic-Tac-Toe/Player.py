@@ -43,5 +43,11 @@ class Player:
     def get_computer_move(slef):
         random_choice = random.choice(list(range(1, 10)))
         move = Move(random_choice)
-        print("Computer move (1-9): ", move.value)
+        print("Computer move (1-9):", move.value)
         return move
+    
+computer = Player(False) # Human player
+
+move = computer.get_move()
+
+print(move)

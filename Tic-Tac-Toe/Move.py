@@ -4,7 +4,7 @@ class Move:
     def __init__(self, value):
         self._value = value
 
-    # Creating greed only property
+    # Creating read only property
     @property
     def value(self):
         return self._value
